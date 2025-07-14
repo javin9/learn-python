@@ -91,6 +91,13 @@ def demo_list_vs_array():
     print(f"数组内存使用: {sys.getsizeof(int_array)} bytes")
 
 
+def convert_to_array():
+    """将列表转换为数组"""
+    arr = array('i', [1, 2, 3])
+    lst = list(arr)
+    print(lst)  # 输出: [1, 2, 3]
+
+
 def main():
     """主函数"""
     print("Python 数组使用指南")
