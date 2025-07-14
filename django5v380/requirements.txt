@@ -1,0 +1,7 @@
+django
+django-threadlocals
+pymysql
+click
+requests
+xlrd
+django-cors-headers
