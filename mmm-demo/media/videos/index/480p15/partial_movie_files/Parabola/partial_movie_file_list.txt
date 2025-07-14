@@ -1,0 +1,7 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/tal/Documents/code/personal/learn-python/mmm-demo/media/videos/index/480p15/partial_movie_files/Parabola/1185818338_2760204216_223132457.mp4'
+file 'file:/Users/tal/Documents/code/personal/learn-python/mmm-demo/media/videos/index/480p15/partial_movie_files/Parabola/624642324_2726293029_3853742504.mp4'
+file 'file:/Users/tal/Documents/code/personal/learn-python/mmm-demo/media/videos/index/480p15/partial_movie_files/Parabola/624642324_3124503936_3384095360.mp4'
+file 'file:/Users/tal/Documents/code/personal/learn-python/mmm-demo/media/videos/index/480p15/partial_movie_files/Parabola/624642324_1142710367_3143318976.mp4'
+file 'file:/Users/tal/Documents/code/personal/learn-python/mmm-demo/media/videos/index/480p15/partial_movie_files/Parabola/624642324_3314574113_972643957.mp4'
+file 'file:/Users/tal/Documents/code/personal/learn-python/mmm-demo/media/videos/index/480p15/partial_movie_files/Parabola/624642324_3033194431_825291932.mp4'

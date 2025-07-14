@@ -1,0 +1,19 @@
+[[source]]
+url = "https://mirrors.aliyun.com/pypi/simple/"
+verify_ssl = false
+name = "pip_conf_index_global"
+
+[packages]
+flask = "*"
+flask-sqlalchemy = "*"
+requests = "*"
+sqlalchemy = "*"
+mysqlclient = "*"
+cymysql = "*"
+flask-wtf = "*"
+wtforms-json = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"

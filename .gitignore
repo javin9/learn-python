@@ -1,0 +1,28 @@
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+**/.venv
+**/.git
+
+# 忽略嵌套仓库的 .git 目录，但保留文件内容
+daily-practice-python/.git/
+django5v380/.git/
+
