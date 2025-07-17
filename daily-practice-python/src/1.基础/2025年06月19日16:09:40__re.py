@@ -7,7 +7,7 @@ text = "The year is 2025."
 
 search_result = re.search(r'\d{4}', text)
 if search_result:
-    print("search:", search_result.group())  # 输出: search: 2025
+    print("search:", search_result, search_result.group())  # 输出: search: 2025
 
 # 使用 re.match()
 # re.match()：只从字符串的开头开始匹配。如果字符串开头不符合正则表达式，即使后面有匹配的子串，也会返回 None。
@@ -28,15 +28,18 @@ print(matches)  # 输出: ['2023', '2024', '2025']
 
 text = "Years: 2023, 2024, 2025"
 for match in re.finditer(r'\d{4}', text):
-    print(f"Found {match.group()} at {match.start()}-{match.end()}")
+    print(f"finditer {match.group()} at {match.start()}-{match.end()}")
 # 输出:
 # Found 2023 at 7-11
 # Found 2024 at 13-17
 # Found 2025 at 19-23
 
+# 使用 compile (编译一次，多次使用)
+pattern = re.compile(r'\d{4}')
+
 text = "Year 2023 and 2024"
-result = re.sub(r'\d{4}', 'XXXX', text)
+result = re.sub(pattern, 'XXXX', text)
 print(result)  # 输出: Year XXXX and XXXX
 # 使用函数替换 substitute
-result = re.sub(r'\d{4}', lambda m: str(int(m.group()) + 1), text)
+result = re.sub(pattern, lambda m: str(int(m.group()) + 1), text)
 print(result)  # 输出: Year 2024 and 2025
